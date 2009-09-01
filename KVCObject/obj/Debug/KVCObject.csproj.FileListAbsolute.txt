@@ -1,0 +1,5 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\KVCObject\KVCObject\bin\Debug\KVCObject.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\KVCObject\KVCObject\bin\Debug\KVCObject.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\KVCObject\KVCObject\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\KVCObject\KVCObject\obj\Debug\KVCObject.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\KVCObject\KVCObject\obj\Debug\KVCObject.pdb

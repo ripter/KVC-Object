@@ -1,0 +1,6 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\KVCObject\KVCObject\bin\Release\KVCObject.XML
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\KVCObject\KVCObject\bin\Release\KVCObject.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\KVCObject\KVCObject\bin\Release\KVCObject.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\KVCObject\KVCObject\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\KVCObject\KVCObject\obj\Release\KVCObject.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\KVCObject\KVCObject\obj\Release\KVCObject.pdb
