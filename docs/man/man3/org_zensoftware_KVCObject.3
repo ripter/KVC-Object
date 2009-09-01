@@ -1,0 +1,187 @@
+.TH "org::zensoftware::KVCObject" 3 "1 Sep 2009" "Version 1.0" "KVC Object" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+org::zensoftware::KVCObject \- 
+.PP
+An implimentation of Objective-C's Key Value coding. By Chris Richards 2009.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBKVCObject\fP ()"
+.br
+.ti -1c
+.RI "object \fBvalueForKey\fP (string key)"
+.br
+.RI "\fIGet the value for a specified key. If key doesn't exist, \fBvalueForUndefinedKey(string key)\fP will be called instead. \fP"
+.ti -1c
+.RI "object \fBvalueForKeyPath\fP (string keyPath)"
+.br
+.RI "\fIGet the value for a specified key in the keyPath. All objects in the path *MUST* inherit from \fBKVCObject\fP for the path to be followed. \fP"
+.ti -1c
+.RI "virtual object \fBvalueForUndefinedKey\fP (string key)"
+.br
+.RI "\fICalled when a key doesn't exist. Override to impliment your own error handling. \fP"
+.ti -1c
+.RI "void \fBsetValueForKey\fP (string key, object value)"
+.br
+.RI "\fISet a value for the key. \fP"
+.ti -1c
+.RI "void \fBsetValueForKeyPath\fP (string keyPath, object value)"
+.br
+.RI "\fISet the value for a keyPath. All objects in the path *MUST* inherit from \fBKVCObject\fP for the path to be followed. \fP"
+.ti -1c
+.RI "void \fBaddObserverForKey\fP (string key, observeValueForKey observer)"
+.br
+.RI "\fIAdd an observer for when the Key changes. \fP"
+.ti -1c
+.RI "void \fBaddObserverForKeyPath\fP (string keyPath, observeValueForKey observer)"
+.br
+.RI "\fIAdd an observer when the key changes on the key path. All objects in the path *MUST* inherit from \fBKVCObject\fP for the path to be followed. \fP"
+.ti -1c
+.RI "void \fBremoveObserverForKey\fP (string key, observeValueForKey observer)"
+.br
+.RI "\fIRemove an observer from the Key changes. \fP"
+.ti -1c
+.RI "void \fBremoveObserverForKeyPath\fP (string keyPath, observeValueForKey observer)"
+.br
+.RI "\fIRemove an observer from the Key changes. All objects in the path *MUST* inherit from \fBKVCObject\fP for the path to be followed. \fP"
+.ti -1c
+.RI "List< string > \fBkeys\fP ()"
+.br
+.RI "\fIReturns a list of all the known keys. \fP"
+.ti -1c
+.RI "bool \fBhasKeys\fP ()"
+.br
+.RI "\fIReturns True if there are any Keys defined. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+An implimentation of Objective-C's Key Value coding. By Chris Richards 2009. 
+
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "org.zensoftware.KVCObject.KVCObject ()"
+.SH "Member Function Documentation"
+.PP 
+.SS "void org.zensoftware.KVCObject.addObserverForKey (string key, observeValueForKey observer)"
+.PP
+Add an observer for when the Key changes. \fBParameters:\fP
+.RS 4
+\fIkey\fP The key you want to watch
+.br
+\fIobserver\fP delegate observeValueForKey
+.RE
+.PP
+
+.SS "void org.zensoftware.KVCObject.addObserverForKeyPath (string keyPath, observeValueForKey observer)"
+.PP
+Add an observer when the key changes on the key path. All objects in the path *MUST* inherit from \fBKVCObject\fP for the path to be followed. \fBParameters:\fP
+.RS 4
+\fIkeyPath\fP A Period seprated list of Key values
+.br
+\fIobserver\fP 
+.RE
+.PP
+
+.SS "bool org.zensoftware.KVCObject.hasKeys ()"
+.PP
+Returns True if there are any Keys defined. \fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.SS "List<string> org.zensoftware.KVCObject.keys ()"
+.PP
+Returns a list of all the known keys. \fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.SS "void org.zensoftware.KVCObject.removeObserverForKey (string key, observeValueForKey observer)"
+.PP
+Remove an observer from the Key changes. \fBParameters:\fP
+.RS 4
+\fIkey\fP 
+.br
+\fIobserver\fP 
+.RE
+.PP
+
+.SS "void org.zensoftware.KVCObject.removeObserverForKeyPath (string keyPath, observeValueForKey observer)"
+.PP
+Remove an observer from the Key changes. All objects in the path *MUST* inherit from \fBKVCObject\fP for the path to be followed. \fBParameters:\fP
+.RS 4
+\fIkeyPath\fP 
+.br
+\fIobserver\fP 
+.RE
+.PP
+
+.SS "void org.zensoftware.KVCObject.setValueForKey (string key, object value)"
+.PP
+Set a value for the key. \fBParameters:\fP
+.RS 4
+\fIkey\fP 
+.br
+\fIvalue\fP 
+.RE
+.PP
+
+.SS "void org.zensoftware.KVCObject.setValueForKeyPath (string keyPath, object value)"
+.PP
+Set the value for a keyPath. All objects in the path *MUST* inherit from \fBKVCObject\fP for the path to be followed. \fBParameters:\fP
+.RS 4
+\fIkeyPath\fP A Period seprated list of Key values
+.br
+\fIvalue\fP 
+.RE
+.PP
+
+.SS "object org.zensoftware.KVCObject.valueForKey (string key)"
+.PP
+Get the value for a specified key. If key doesn't exist, \fBvalueForUndefinedKey(string key)\fP will be called instead. \fBParameters:\fP
+.RS 4
+\fIkey\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.SS "object org.zensoftware.KVCObject.valueForKeyPath (string keyPath)"
+.PP
+Get the value for a specified key in the keyPath. All objects in the path *MUST* inherit from \fBKVCObject\fP for the path to be followed. \fBParameters:\fP
+.RS 4
+\fIkeyPath\fP A Period seprated list of Key values.
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.SS "virtual object org.zensoftware.KVCObject.valueForUndefinedKey (string key)\fC [virtual]\fP"
+.PP
+Called when a key doesn't exist. Override to impliment your own error handling. \fBParameters:\fP
+.RS 4
+\fIkey\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+null
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for KVC Object from the source code.

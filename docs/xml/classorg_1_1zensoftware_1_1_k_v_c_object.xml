@@ -1,0 +1,392 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="classorg_1_1zensoftware_1_1_k_v_c_object" kind="class" prot="public">
+    <compoundname>org::zensoftware::KVCObject</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classorg_1_1zensoftware_1_1_k_v_c_object_1a0847a40f110d1a5ed8d985354e467be7" prot="private" static="no" mutable="no">
+        <type>Hashtable</type>
+        <definition>Hashtable org.zensoftware.KVCObject._properties</definition>
+        <argsstring></argsstring>
+        <name>_properties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" line="23" bodyfile="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classorg_1_1zensoftware_1_1_k_v_c_object_1ab7bb097ee46384bcce8756706383b827" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; string, observeValueForKey &gt;</type>
+        <definition>Dictionary&lt;string, observeValueForKey&gt; org.zensoftware.KVCObject._kvo</definition>
+        <argsstring></argsstring>
+        <name>_kvo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" line="24" bodyfile="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classorg_1_1zensoftware_1_1_k_v_c_object_1afab44f2fd361e453ddafc043782af58a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>org.zensoftware.KVCObject.KVCObject</definition>
+        <argsstring>()</argsstring>
+        <name>KVCObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" line="27" bodyfile="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" bodystart="26" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classorg_1_1zensoftware_1_1_k_v_c_object_1a5a91cba1a0416b75d8db302c61911213" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object org.zensoftware.KVCObject.valueForKey</definition>
+        <argsstring>(string key)</argsstring>
+        <name>valueForKey</name>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>Get the value for a specified key. If key doesn&apos;t exist, <ref refid="classorg_1_1zensoftware_1_1_k_v_c_object_1ad2e88f59c077b45c6778710a1e086163" kindref="member">valueForUndefinedKey(string key)</ref> will be called instead. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" line="39" bodyfile="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" bodystart="38" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classorg_1_1zensoftware_1_1_k_v_c_object_1a218765ff16ab97310232637f2068909c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object org.zensoftware.KVCObject.valueForKeyPath</definition>
+        <argsstring>(string keyPath)</argsstring>
+        <name>valueForKeyPath</name>
+        <param>
+          <type>string</type>
+          <declname>keyPath</declname>
+        </param>
+        <briefdescription>
+<para>Get the value for a specified key in the keyPath. All objects in the path *MUST* inherit from <ref refid="classorg_1_1zensoftware_1_1_k_v_c_object" kindref="compound">KVCObject</ref> for the path to be followed. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>keyPath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A Period seprated list of Key values.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" line="53" bodyfile="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" bodystart="52" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classorg_1_1zensoftware_1_1_k_v_c_object_1ad2e88f59c077b45c6778710a1e086163" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>object</type>
+        <definition>virtual object org.zensoftware.KVCObject.valueForUndefinedKey</definition>
+        <argsstring>(string key)</argsstring>
+        <name>valueForUndefinedKey</name>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>Called when a key doesn&apos;t exist. Override to impliment your own error handling. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>null</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" line="79" bodyfile="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" bodystart="78" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classorg_1_1zensoftware_1_1_k_v_c_object_1a98df6d75d84c6f1bde8e628971ac0ee6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void org.zensoftware.KVCObject.setValueForKey</definition>
+        <argsstring>(string key, object value)</argsstring>
+        <name>setValueForKey</name>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set a value for the key. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" line="88" bodyfile="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" bodystart="87" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classorg_1_1zensoftware_1_1_k_v_c_object_1a73079f0d9176bd7660117b5bd90627dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void org.zensoftware.KVCObject.setValueForKeyPath</definition>
+        <argsstring>(string keyPath, object value)</argsstring>
+        <name>setValueForKeyPath</name>
+        <param>
+          <type>string</type>
+          <declname>keyPath</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set the value for a keyPath. All objects in the path *MUST* inherit from <ref refid="classorg_1_1zensoftware_1_1_k_v_c_object" kindref="compound">KVCObject</ref> for the path to be followed. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>keyPath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A Period seprated list of Key values</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" line="103" bodyfile="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" bodystart="102" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="classorg_1_1zensoftware_1_1_k_v_c_object_1ac2e48f92639d9dae571593b9e257ee35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void org.zensoftware.KVCObject.addObserverForKey</definition>
+        <argsstring>(string key, observeValueForKey observer)</argsstring>
+        <name>addObserverForKey</name>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>observeValueForKey</type>
+          <declname>observer</declname>
+        </param>
+        <briefdescription>
+<para>Add an observer for when the Key changes. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key you want to watch</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>observer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>delegate observeValueForKey</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" line="134" bodyfile="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" bodystart="133" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classorg_1_1zensoftware_1_1_k_v_c_object_1acb8012bb3496be1e346873d0900fdc1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void org.zensoftware.KVCObject.addObserverForKeyPath</definition>
+        <argsstring>(string keyPath, observeValueForKey observer)</argsstring>
+        <name>addObserverForKeyPath</name>
+        <param>
+          <type>string</type>
+          <declname>keyPath</declname>
+        </param>
+        <param>
+          <type>observeValueForKey</type>
+          <declname>observer</declname>
+        </param>
+        <briefdescription>
+<para>Add an observer when the key changes on the key path. All objects in the path *MUST* inherit from <ref refid="classorg_1_1zensoftware_1_1_k_v_c_object" kindref="compound">KVCObject</ref> for the path to be followed. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>keyPath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A Period seprated list of Key values</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>observer</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" line="152" bodyfile="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" bodystart="151" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="classorg_1_1zensoftware_1_1_k_v_c_object_1abd9f01045119fff74ce9de7a3f31c104" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void org.zensoftware.KVCObject.removeObserverForKey</definition>
+        <argsstring>(string key, observeValueForKey observer)</argsstring>
+        <name>removeObserverForKey</name>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>observeValueForKey</type>
+          <declname>observer</declname>
+        </param>
+        <briefdescription>
+<para>Remove an observer from the Key changes. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>observer</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" line="183" bodyfile="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" bodystart="182" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="classorg_1_1zensoftware_1_1_k_v_c_object_1acd234b0a0f3327436fe5a98112f2b37f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void org.zensoftware.KVCObject.removeObserverForKeyPath</definition>
+        <argsstring>(string keyPath, observeValueForKey observer)</argsstring>
+        <name>removeObserverForKeyPath</name>
+        <param>
+          <type>string</type>
+          <declname>keyPath</declname>
+        </param>
+        <param>
+          <type>observeValueForKey</type>
+          <declname>observer</declname>
+        </param>
+        <briefdescription>
+<para>Remove an observer from the Key changes. All objects in the path *MUST* inherit from <ref refid="classorg_1_1zensoftware_1_1_k_v_c_object" kindref="compound">KVCObject</ref> for the path to be followed. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>keyPath</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>observer</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" line="196" bodyfile="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" bodystart="195" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="classorg_1_1zensoftware_1_1_k_v_c_object_1ab9bf6eabd045ca108db9e7634c3208fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; org.zensoftware.KVCObject.keys</definition>
+        <argsstring>()</argsstring>
+        <name>keys</name>
+        <briefdescription>
+<para>Returns a list of all the known keys. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" line="226" bodyfile="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" bodystart="225" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="classorg_1_1zensoftware_1_1_k_v_c_object_1a992d4fa105d7f90c3d0aba1e5a4680ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool org.zensoftware.KVCObject.hasKeys</definition>
+        <argsstring>()</argsstring>
+        <name>hasKeys</name>
+        <briefdescription>
+<para>Returns True if there are any Keys defined. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" line="239" bodyfile="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" bodystart="238" bodyend="245"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>An implimentation of Objective-C&apos;s Key Value coding. By Chris Richards 2009. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" line="22" bodyfile="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" bodystart="21" bodyend="246"/>
+    <listofallmembers>
+      <member refid="classorg_1_1zensoftware_1_1_k_v_c_object_1ab7bb097ee46384bcce8756706383b827" prot="private" virt="non-virtual"><scope>org::zensoftware::KVCObject</scope><name>_kvo</name></member>
+      <member refid="classorg_1_1zensoftware_1_1_k_v_c_object_1a0847a40f110d1a5ed8d985354e467be7" prot="private" virt="non-virtual"><scope>org::zensoftware::KVCObject</scope><name>_properties</name></member>
+      <member refid="classorg_1_1zensoftware_1_1_k_v_c_object_1ac2e48f92639d9dae571593b9e257ee35" prot="public" virt="non-virtual"><scope>org::zensoftware::KVCObject</scope><name>addObserverForKey</name></member>
+      <member refid="classorg_1_1zensoftware_1_1_k_v_c_object_1acb8012bb3496be1e346873d0900fdc1b" prot="public" virt="non-virtual"><scope>org::zensoftware::KVCObject</scope><name>addObserverForKeyPath</name></member>
+      <member refid="classorg_1_1zensoftware_1_1_k_v_c_object_1a992d4fa105d7f90c3d0aba1e5a4680ad" prot="public" virt="non-virtual"><scope>org::zensoftware::KVCObject</scope><name>hasKeys</name></member>
+      <member refid="classorg_1_1zensoftware_1_1_k_v_c_object_1ab9bf6eabd045ca108db9e7634c3208fc" prot="public" virt="non-virtual"><scope>org::zensoftware::KVCObject</scope><name>keys</name></member>
+      <member refid="classorg_1_1zensoftware_1_1_k_v_c_object_1afab44f2fd361e453ddafc043782af58a" prot="public" virt="non-virtual"><scope>org::zensoftware::KVCObject</scope><name>KVCObject</name></member>
+      <member refid="classorg_1_1zensoftware_1_1_k_v_c_object_1abd9f01045119fff74ce9de7a3f31c104" prot="public" virt="non-virtual"><scope>org::zensoftware::KVCObject</scope><name>removeObserverForKey</name></member>
+      <member refid="classorg_1_1zensoftware_1_1_k_v_c_object_1acd234b0a0f3327436fe5a98112f2b37f" prot="public" virt="non-virtual"><scope>org::zensoftware::KVCObject</scope><name>removeObserverForKeyPath</name></member>
+      <member refid="classorg_1_1zensoftware_1_1_k_v_c_object_1a98df6d75d84c6f1bde8e628971ac0ee6" prot="public" virt="non-virtual"><scope>org::zensoftware::KVCObject</scope><name>setValueForKey</name></member>
+      <member refid="classorg_1_1zensoftware_1_1_k_v_c_object_1a73079f0d9176bd7660117b5bd90627dd" prot="public" virt="non-virtual"><scope>org::zensoftware::KVCObject</scope><name>setValueForKeyPath</name></member>
+      <member refid="classorg_1_1zensoftware_1_1_k_v_c_object_1a5a91cba1a0416b75d8db302c61911213" prot="public" virt="non-virtual"><scope>org::zensoftware::KVCObject</scope><name>valueForKey</name></member>
+      <member refid="classorg_1_1zensoftware_1_1_k_v_c_object_1a218765ff16ab97310232637f2068909c" prot="public" virt="non-virtual"><scope>org::zensoftware::KVCObject</scope><name>valueForKeyPath</name></member>
+      <member refid="classorg_1_1zensoftware_1_1_k_v_c_object_1ad2e88f59c077b45c6778710a1e086163" prot="public" virt="virtual"><scope>org::zensoftware::KVCObject</scope><name>valueForUndefinedKey</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

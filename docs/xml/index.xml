@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.6.1">
+  <compound refid="classorg_1_1zensoftware_1_1_k_v_c_object" kind="class"><name>org::zensoftware::KVCObject</name>
+    <member refid="classorg_1_1zensoftware_1_1_k_v_c_object_1a0847a40f110d1a5ed8d985354e467be7" kind="variable"><name>_properties</name></member>
+    <member refid="classorg_1_1zensoftware_1_1_k_v_c_object_1ab7bb097ee46384bcce8756706383b827" kind="variable"><name>_kvo</name></member>
+    <member refid="classorg_1_1zensoftware_1_1_k_v_c_object_1afab44f2fd361e453ddafc043782af58a" kind="function"><name>KVCObject</name></member>
+    <member refid="classorg_1_1zensoftware_1_1_k_v_c_object_1a5a91cba1a0416b75d8db302c61911213" kind="function"><name>valueForKey</name></member>
+    <member refid="classorg_1_1zensoftware_1_1_k_v_c_object_1a218765ff16ab97310232637f2068909c" kind="function"><name>valueForKeyPath</name></member>
+    <member refid="classorg_1_1zensoftware_1_1_k_v_c_object_1ad2e88f59c077b45c6778710a1e086163" kind="function"><name>valueForUndefinedKey</name></member>
+    <member refid="classorg_1_1zensoftware_1_1_k_v_c_object_1a98df6d75d84c6f1bde8e628971ac0ee6" kind="function"><name>setValueForKey</name></member>
+    <member refid="classorg_1_1zensoftware_1_1_k_v_c_object_1a73079f0d9176bd7660117b5bd90627dd" kind="function"><name>setValueForKeyPath</name></member>
+    <member refid="classorg_1_1zensoftware_1_1_k_v_c_object_1ac2e48f92639d9dae571593b9e257ee35" kind="function"><name>addObserverForKey</name></member>
+    <member refid="classorg_1_1zensoftware_1_1_k_v_c_object_1acb8012bb3496be1e346873d0900fdc1b" kind="function"><name>addObserverForKeyPath</name></member>
+    <member refid="classorg_1_1zensoftware_1_1_k_v_c_object_1abd9f01045119fff74ce9de7a3f31c104" kind="function"><name>removeObserverForKey</name></member>
+    <member refid="classorg_1_1zensoftware_1_1_k_v_c_object_1acd234b0a0f3327436fe5a98112f2b37f" kind="function"><name>removeObserverForKeyPath</name></member>
+    <member refid="classorg_1_1zensoftware_1_1_k_v_c_object_1ab9bf6eabd045ca108db9e7634c3208fc" kind="function"><name>keys</name></member>
+    <member refid="classorg_1_1zensoftware_1_1_k_v_c_object_1a992d4fa105d7f90c3d0aba1e5a4680ad" kind="function"><name>hasKeys</name></member>
+  </compound>
+  <compound refid="namespaceorg" kind="namespace"><name>org</name>
+  </compound>
+  <compound refid="namespaceorg_1_1zensoftware" kind="namespace"><name>org::zensoftware</name>
+    <member refid="namespaceorg_1_1zensoftware_1ac8d06cba1cd13c7c5f87363a0e1a5078" kind="function"><name>observeValueForKey</name></member>
+  </compound>
+  <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="_class1_8cs" kind="file"><name>Class1.cs</name>
+    <member refid="_class1_8cs_1a81a223a02c34d82b47199f08308847f2" kind="variable"><name>System</name></member>
+  </compound>
+  <compound refid="_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+    <member refid="_assembly_info_8cs_1a8974f59db973551affdb297a3c5ab53a" kind="variable"><name>Reflection</name></member>
+  </compound>
+  <compound refid="dir_f24c0b04273c20bf27c99edf6203135e" kind="dir"><name>C:/Documents and Settings/Administrator/</name>
+  </compound>
+  <compound refid="dir_e6bb53534ac0e427887cf7a94c0c004e" kind="dir"><name>C:/</name>
+  </compound>
+  <compound refid="dir_454d6d0d0c9ea7824637bf8f13f17cfc" kind="dir"><name>C:/Documents and Settings/Administrator/My Documents/code/</name>
+  </compound>
+  <compound refid="dir_26e882a7bc7506c2416264ad2027ff04" kind="dir"><name>C:/Documents and Settings/</name>
+  </compound>
+  <compound refid="dir_dc4c49026ecf4b9ba6c4d3718b0f2aab" kind="dir"><name>C:/Documents and Settings/Administrator/My Documents/code/git/</name>
+  </compound>
+  <compound refid="dir_f91b97fd0329daf215c497bcf32a04c0" kind="dir"><name>C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/</name>
+  </compound>
+  <compound refid="dir_fcca060dc69dcc37471e82080b2bd343" kind="dir"><name>C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/</name>
+  </compound>
+  <compound refid="dir_47b903c0e697150590faf69864e513a8" kind="dir"><name>C:/Documents and Settings/Administrator/My Documents/</name>
+  </compound>
+  <compound refid="dir_11dbaabaefaa2f5ae396a139b0ba8002" kind="dir"><name>C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Properties/</name>
+  </compound>
+</doxygenindex>

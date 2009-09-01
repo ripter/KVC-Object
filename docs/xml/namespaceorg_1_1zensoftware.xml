@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="namespaceorg_1_1zensoftware" kind="namespace">
+    <compoundname>org::zensoftware</compoundname>
+    <innerclass refid="classorg_1_1zensoftware_1_1_k_v_c_object" prot="public">org::zensoftware::KVCObject</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceorg_1_1zensoftware_1ac8d06cba1cd13c7c5f87363a0e1a5078" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void org.zensoftware.observeValueForKey</definition>
+        <argsstring>(string forKey, KVCObject forObject, object oldValue, object newValue)</argsstring>
+        <name>observeValueForKey</name>
+        <param>
+          <type>string</type>
+          <declname>forKey</declname>
+        </param>
+        <param>
+          <type><ref refid="classorg_1_1zensoftware_1_1_k_v_c_object" kindref="compound">KVCObject</ref></type>
+          <declname>forObject</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>oldValue</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>newValue</declname>
+        </param>
+        <briefdescription>
+<para>Delegate to observe changes in keys. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>forKey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key that was observed.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>forObject</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object the key belongs to.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>oldValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key&apos;s old value.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key&apos;s new value.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" line="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/My Documents/code/git/KVC-Object/KVCObject/Class1.cs" line="6"/>
+  </compounddef>
+</doxygen>
